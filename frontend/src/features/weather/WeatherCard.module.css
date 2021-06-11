@@ -1,0 +1,83 @@
+
+.card {
+  /* width: 100%; */
+  margin-bottom: 10px;
+  display: flex;
+  border: 2px solid rgba(76, 92, 182, 0.4);
+  border-radius: 2px;
+  color: #000;
+  padding: 0 14px;
+  margin-top: 10px;
+  height: 64px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+
+.date {
+  margin-right: 20px;
+  align-self: center;
+}
+
+.dateweek {
+  font-size: 14px;
+  display: block;
+}
+
+.dateday {
+  font-weight: 500;
+  font-size: 14px;
+  display: block;
+  width: 75px;
+}
+
+.icon {
+  height: 62px;
+  width: 62px;
+  margin-right: 12px;
+}
+
+.temp {
+  align-self: center;
+  white-space: nowrap;
+}
+
+.high {
+  font-size: 26px;
+  line-height: 1.08;
+  font-weight: 500;
+  letter-spacing: 1px;
+  /*  */
+  font-size: 50.6px;
+  line-height: 1.07;
+  letter-spacing: -.42px;
+}
+
+.low {
+  font-size: 20px;
+  color: #878787;
+  line-height: 1.2;
+  /*  */
+  font-size: 20.3px;
+  line-height: .92;
+}
+
+.description {
+  display: block;
+  align-self: center;
+  font-size: 18px;
+  line-height: 1.22;
+  width: 40%;
+  text-align: left;
+  flex-grow: 1;
+}

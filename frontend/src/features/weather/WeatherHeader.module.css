@@ -1,0 +1,35 @@
+
+.header {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid lightblue;
+  background-color: rgba(112, 76, 182, 0.1);
+  border: 2px solid rgba(112, 76, 182, 0.4);
+  color: rgb(112, 76, 182);
+  padding: 14px;
+  text-align: center;
+}
+
+.city {
+  font-size: 24px;
+}
+
+.temp {
+  font-size: 26px;
+  line-height: 1.08;
+  font-weight: 500;
+  letter-spacing: 1px;
+  /*  */
+  font-size: 50.6px;
+  line-height: 1.07;
+  letter-spacing: -.42px;
+}
+
+.uvi {
+  font-size: 20px;
+  color: #878787;
+  line-height: 1.2;
+  /*  */
+  font-size: 20.3px;
+  line-height: .92;
+}
