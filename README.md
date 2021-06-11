@@ -2,6 +2,8 @@
 
 This is a basic OpenWeather Web Application that allows you to retrieve local weather forecast from a zip code. It's written with following technologies: Node.JS, Express, React, Redux-Toolkit, Jest, and Testing-library.
 
+![App Screenshot](app_screenshot.png)
+
 ## Getting Started (Docker)
 
 Update the OpenWeather API Key in the docker compose `docker-compose.yml` file:
